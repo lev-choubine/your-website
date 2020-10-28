@@ -55,3 +55,29 @@ jigger.addEventListener('mouseout', function(){
 
 })
 //////////////////////////////////////////////////
+
+const one = document.getElementById('one');
+const two = document.getElementById('two');
+const three = document.getElementById('three');
+const four = document.getElementById('four');
+const five = document.getElementById('five');
+
+one.addEventListener('click', function () {
+    window.open('https://www.cocktailkingdom.com/all-barware/shakers?___store=default&UseLoc=US');
+}) 
+
+two.addEventListener('click', function () {
+    window.open('https://www.cocktailkingdom.com/sokata-mixing-glass-675ml');
+}) 
+
+three.addEventListener('click', function () {
+    window.open('https://www.cocktailkingdom.com/all-barware/barspoons');
+}) 
+
+four.addEventListener('click', function () {
+    window.open('https://www.cocktailkingdom.com/all-barware/strainers');
+}) 
+
+five.addEventListener('click', function () {
+    window.open('https://www.cocktailkingdom.com/all-barware/jiggers');
+}) 
