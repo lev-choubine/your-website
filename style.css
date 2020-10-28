@@ -1,0 +1,154 @@
+h1{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    border-radius: 5%;
+
+}
+
+h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-recipes {
+    display: flex;                       
+    flex-wrap: wrap;
+    margin: auto;
+    width: 75%; 
+    justify-content: space-around;  
+    background-color:whitesmoke;                  
+  }
+  
+  .card {
+    object-fit: cover;
+    flex: 0 0 29%;                       
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 254, 253);
+    margin-top: 15px;
+    
+  }
+
+  .card-body {
+    background-color: rgb(255, 254, 253, 0.6) ;
+  }
+
+  .btn-primary {
+  background-color: rgb(223, 221, 221);
+  border-color: rgb(179, 177, 174);
+  margin: auto;
+  color: rgb(92, 91, 91);
+  font-weight: 900;
+  font-size: 11px;
+
+  }
+
+  .card-img-top{
+   /* height: 200px; */
+  }
+
+
+
+#shop-tools {
+    background-color:rgb(245, 245, 245, .2);
+    position: relative;
+    padding: 15px;
+    border-radius: 5%;
+}
+
+.shop-tools {
+    margin: auto;
+}
+
+p .btn-primary {
+    width: 200px;
+    font-size: 11px;
+}
+
+.screen {
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    right: 40%;
+    
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+ 
+    background-image: url('https://static01.nyt.com/images/2020/04/26/nyregion/26big-lede/26big-lede-videoSixteenByNineJumbo1600.jpg');
+    background-size: cover;
+    position: relative;
+    
+}
+
+#big-white-square {
+    margin: 0px;
+    background-color: rgb(255, 253, 253, .8);
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 30px;
+    margin top: 10px;
+    color: white;
+    padding: 5px;
+  
+}
+
+#carouselExampleSlidesOnly{
+    margin: 0px 300px;
+    z-index: -1;
+    height: 10px;
+    width: auto;
+}
+
+@media (max-width: 600px){
+ 
+    .card {
+        object-fit: cover;
+        flex: 0 0 90%;                       
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        background-color: rgb(255, 254, 253);
+        margin-top: 15px;
+}
+
+.screen {
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 340px;
+    right: 30%;
+    z-index: 2;
+
+}
+}
+@media screen and (min-width: 600px) and (max-width: 900px){
+ 
+    .card {
+        object-fit: cover;
+        flex: 0 0 45%;                       
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        background-color: rgb(255, 254, 253);
+        margin-top: 15px;
+    }
+    .screen {
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 85px;
+        right: 5%;
+}
