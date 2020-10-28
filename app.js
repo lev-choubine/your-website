@@ -81,3 +81,25 @@ four.addEventListener('click', function () {
 five.addEventListener('click', function () {
     window.open('https://www.cocktailkingdom.com/all-barware/jiggers');
 }) 
+
+const footer = document.createElement('footer');
+const br=document.createElement('br');
+footer.innerText ="m a d e  B y  l e v  C h o u b i n e";
+const body =document.querySelector('body');
+body.appendChild(footer);
+const form = document.createElement('form');
+footer.appendChild(form);
+const input1=document.createElement('input');
+const label=document.createElement('label');
+const input2=document.createElement('input');
+form.appendChild(input1);
+form.appendChild(input2);
+form.appendChild(br);
+form.appendChild(label);
+label.setAttribute('for','name');
+input2.setAttribute('type','submit')
+input2.setAttribute('value','submit')
+input1.setAttribute('id','name')
+input1.setAttribute('name','name')
+label.innerText="Tell Us What Your Favorite Drink Is";
+
